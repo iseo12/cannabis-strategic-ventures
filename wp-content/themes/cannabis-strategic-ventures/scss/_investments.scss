@@ -1,0 +1,111 @@
+.investment {
+  .container {
+    width: 80%;
+    @include mobile {
+      width: 90%;
+    }
+  }
+  h3 {
+    width: 385px;
+    margin-top: 200px;
+    @include mobile {
+      width: 285px;
+      margin-top: 80px;
+    }
+  }
+  .col1 {
+    flex: 1 35%;
+    @include mobile {
+      flex: 1 100%;
+    }
+    h2 {
+      width: 80%;
+      @include mobile {
+        width: 100%;
+      }
+    }
+    p {
+      width: 90%;
+      margin-bottom: 40px;
+    }
+  }
+  .col2 {
+    display: flex;
+    flex: 2 58%;
+    margin-left: 7%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    @include mobile {
+      display: inline;
+      margin-left: 0;
+    }
+  }
+}
+.info-container {
+  flex: 1 50%;
+  padding: 35px 0 80px;
+  color: #fff;
+  background-color: #224dff;
+  h2 {
+    font-size: var(--font-size-1);
+  }
+  h2,
+  .mui-textfield {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .mui-textfield {
+    padding-top: 35px;
+    color: #aeaeae;
+  }
+  .mui-textfield > input {
+    border-color: #e6fbff;
+    color: rgba(255, 255, 255, 0.4);
+    &:focus {
+      border-width: 2px;
+    }
+  }
+  .mui-dropdown {
+    width: 80%;
+    margin-top: 35px;
+    margin-left: 10%;
+  }
+  .mui-btn {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #fff;
+    box-shadow: none;
+    text-transform: none;
+    font-weight: 400;
+    color: #1e39bc;
+    background-color: transparent;
+  }
+  .mui-dropdown__menu {
+    width: 100%;
+  }
+  .mui-caret {
+    position: absolute;
+    right: 0;
+    margin: 14px 6px;
+  }
+}
+.message-container {
+  flex: 2 50%;
+  padding: 35px 0;
+  text-align: center;
+  @include mobile {
+    height: 220px;
+    padding: 50px 0;
+  }
+  .message {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border: 0;
+    &:focus {
+      outline: none;
+    }
+  }
+}

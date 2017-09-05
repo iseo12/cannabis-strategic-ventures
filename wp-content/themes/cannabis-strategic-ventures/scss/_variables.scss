@@ -1,0 +1,30 @@
+// container variables
+$max-container-width: 60rem !default;
+$container-horizontal-padding: 5vw !default;
+
+// font family variables
+$font-family-sans-serif: 'Roboto Condensed', -apple-system, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$base-font-family: $font-family-sans-serif !default;
+
+// base font size variables
+$unitless-min-font-size: 16;
+$unitless-max-font-size: 20;
+
+// viewport widths when min/max font sizes will apply
+$unitless-lower-font-range: 460;
+$unitless-upper-font-range: 1200;
+
+// base unitless line heights
+$base-line-height: 1.5;
+$heading-line-height: 1.25;
+
+// font sizes
+$font-size-1: 3rem;
+$font-size-2: 2rem;
+$font-size-3: 1.5rem;
+$font-size-4: 1.167rem;
+$font-size-5: 1rem;
+$font-size-6: 0.75rem;
+$font-size-base: $font-size-5;
+$font-size-large: $font-size-4;
+$font-size-small: $font-size-6;

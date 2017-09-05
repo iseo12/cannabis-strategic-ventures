@@ -1,0 +1,38 @@
+.map {
+  position: relative;
+  margin-top: 200px;
+  @include mobile {
+    margin-top: 40px;
+  }
+  iframe {
+    @include mobile {
+      height: 700px;
+    }
+  }
+  .location-info {
+    position: absolute;
+    right: 2%;
+    margin-top: 30px;
+    padding: 60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background-color: #fff;
+    @include mobile {
+      top: 57%;
+      left: 50%;
+      width: 86%;
+      padding: 25px;
+      transform: translateX(-50%);
+    }
+    h2 {
+      margin: 0 0 30px;
+      font-weight: 400;
+    }
+    p {
+      margin: 0;
+      font-size: var(--font-size-2);
+    }
+  }
+  .address {
+    margin-top: 30px;
+  }
+}

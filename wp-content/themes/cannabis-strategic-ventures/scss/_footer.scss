@@ -1,0 +1,62 @@
+.site-footer {
+  display: flex;
+  .logo-container {
+    display: flex;
+    flex: 1 80%;
+    padding: 20px 10%;
+    background-color: #e4e4e4;
+    @include mobile {
+      flex: 1 55%;
+      padding: 20px 5%;
+    }
+    a {
+      display: inline-flex;
+      align-items: center;
+    }
+    h2 {
+      display: none;
+    }
+  }
+  .logo {
+    width: 407px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include mobile {
+      width: 36px;
+      height: 36px;
+    }
+  }
+  .social {
+    display: flex;
+    flex: 2 20%;
+    background-color: #c2c0c1;
+    @include mobile {
+      flex: 2 45%;
+    }
+    .container {
+      align-items: center;
+      justify-content: center;
+    }
+    a {
+      width: 36px;
+      height: 36px;
+      border: 1px solid #e4e4e4;
+      border-radius: 50%;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      text-decoration: none;
+      background-color: #e4e4e4;
+    }
+    .linkedin {
+      background-color: #e4e4e4;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .email {
+      margin-left: 20px;
+      background-color: #e4e4e4;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}

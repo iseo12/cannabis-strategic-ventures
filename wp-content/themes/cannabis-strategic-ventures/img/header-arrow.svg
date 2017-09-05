@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="62px" viewBox="0 0 98 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-7.8%" y="-9.3%" width="115.6%" height="125.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-781.000000, -800.000000)">
+            <g id="Group-2" filter="url(#filter-1)" transform="translate(785.000000, 802.000000)">
+                <g id="Group" transform="translate(45.000000, 0.000000)" fill="#37ECBA">
+                    <polygon id="Rectangle-4-Copy-4" points="0 0 45 0 0 54"></polygon>
+                </g>
+                <g id="Group-Copy" transform="translate(22.500000, 27.000000) scale(-1, 1) translate(-22.500000, -27.000000) " fill="#224DFF">
+                    <polygon id="Rectangle-4-Copy-4" points="0 0 45 0 0 54"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

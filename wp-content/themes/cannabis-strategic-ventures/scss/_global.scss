@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+ul {
+  display: flex;
+  padding-left: 0;
+  li {
+    list-style-type: none;
+  }
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  @include tablet {
+    width: 90%;
+  }
+  @include mobile {
+    width: 90%;
+  }
+  h2 {
+    margin: 0 0 10px;
+    font-size: 2.875rem;
+    font-weight: 400;
+  }
+  p {
+    font-size: 1.875rem;
+    line-height: 25px;
+  }
+}
+
+.title {
+  flex: 1 100%;
+  color: #acacac;
+  h3 {
+    margin: 60px auto;
+    padding: 4px 0;
+    border: 1px solid #acacac;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 3px;
+    @include mobile {
+      font-size: var(--font-size-3);
+    }
+  }
+}
+
+.btn {
+  padding: 6px 35px;
+  border: 1px solid #acacac;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-size: var(--font-size-2);
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #224dff;
+  @include mobile {
+    margin: 40px auto 0;
+    padding: 8px 40px;
+  }
+}
